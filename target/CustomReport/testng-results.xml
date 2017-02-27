@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="169031" started-at="2017-02-27T11:08:16Z" finished-at="2017-02-27T11:11:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="169031" started-at="2017-02-27T11:08:16Z" finished-at="2017-02-27T11:11:05Z">
+      <class name="com.backbase.automation.tests.ComputerPageValidationTest">
+        <test-method status="PASS" signature="saveComputerWithInvalidDiscontinuedDate()[pri:0, instance:com.backbase.automation.tests.ComputerPageValidationTest@5ebec15]" name="saveComputerWithInvalidDiscontinuedDate" duration-ms="17918" started-at="2017-02-27T12:09:04Z" finished-at="2017-02-27T12:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveComputerWithInvalidDiscontinuedDate -->
+        <test-method status="PASS" signature="saveComputerWithInvalidIntroducedDate()[pri:0, instance:com.backbase.automation.tests.ComputerPageValidationTest@5ebec15]" name="saveComputerWithInvalidIntroducedDate" duration-ms="11958" started-at="2017-02-27T12:09:22Z" finished-at="2017-02-27T12:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveComputerWithInvalidIntroducedDate -->
+        <test-method status="PASS" signature="saveComputerWithoutData()[pri:0, instance:com.backbase.automation.tests.ComputerPageValidationTest@5ebec15]" name="saveComputerWithoutData" duration-ms="10838" started-at="2017-02-27T12:09:34Z" finished-at="2017-02-27T12:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveComputerWithoutData -->
+      </class> <!-- com.backbase.automation.tests.ComputerPageValidationTest -->
+      <class name="com.backbase.automation.tests.AddComputerTest">
+        <test-method status="PASS" signature="addComputerTest()[pri:0, instance:com.backbase.automation.tests.AddComputerTest@1a407d53]" name="addComputerTest" duration-ms="12719" started-at="2017-02-27T12:10:05Z" finished-at="2017-02-27T12:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComputerTest -->
+      </class> <!-- com.backbase.automation.tests.AddComputerTest -->
+      <class name="com.backbase.automation.tests.SearchWithInvalidDataTest">
+        <test-method status="PASS" signature="searchComputerTest()[pri:0, instance:com.backbase.automation.tests.SearchWithInvalidDataTest@6bf256fa]" name="searchComputerTest" duration-ms="17324" started-at="2017-02-27T12:10:27Z" finished-at="2017-02-27T12:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchComputerTest -->
+      </class> <!-- com.backbase.automation.tests.SearchWithInvalidDataTest -->
+      <class name="com.backbase.automation.tests.pageNavigationTest">
+        <test-method status="PASS" signature="nextPageNavigationTest()[pri:0, instance:com.backbase.automation.tests.pageNavigationTest@3498ed]" name="nextPageNavigationTest" duration-ms="9456" started-at="2017-02-27T12:09:45Z" finished-at="2017-02-27T12:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextPageNavigationTest -->
+        <test-method status="PASS" signature="previousPageNavigationTest()[pri:0, instance:com.backbase.automation.tests.pageNavigationTest@3498ed]" name="previousPageNavigationTest" duration-ms="10993" started-at="2017-02-27T12:09:54Z" finished-at="2017-02-27T12:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previousPageNavigationTest -->
+      </class> <!-- com.backbase.automation.tests.pageNavigationTest -->
+      <class name="com.backbase.automation.tests.ComputerNameMaxLengthTest">
+        <test-method status="PASS" signature="computerNameMaxLengthTest()[pri:0, instance:com.backbase.automation.tests.ComputerNameMaxLengthTest@13969fbe]" name="computerNameMaxLengthTest" duration-ms="8988" started-at="2017-02-27T12:10:18Z" finished-at="2017-02-27T12:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- computerNameMaxLengthTest -->
+      </class> <!-- com.backbase.automation.tests.ComputerNameMaxLengthTest -->
+      <class name="com.backbase.automation.tests.PageRefreshTest">
+        <test-method status="PASS" signature="nextPageNavigationTest()[pri:0, instance:com.backbase.automation.tests.PageRefreshTest@3d8c7aca]" name="nextPageNavigationTest" duration-ms="15796" started-at="2017-02-27T12:08:30Z" finished-at="2017-02-27T12:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextPageNavigationTest -->
+      </class> <!-- com.backbase.automation.tests.PageRefreshTest -->
+      <class name="com.backbase.automation.tests.SearchComputerTest">
+        <test-method status="PASS" signature="searchComputerTest()[pri:0, instance:com.backbase.automation.tests.SearchComputerTest@71be98f5]" name="searchComputerTest" duration-ms="20876" started-at="2017-02-27T12:10:44Z" finished-at="2017-02-27T12:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchComputerTest -->
+      </class> <!-- com.backbase.automation.tests.SearchComputerTest -->
+      <class name="com.backbase.automation.tests.CancelComputerDataTest">
+        <test-method status="PASS" signature="cancelComputerDataTest()[pri:0, instance:com.backbase.automation.tests.CancelComputerDataTest@6aaa5eb0]" name="cancelComputerDataTest" duration-ms="13556" started-at="2017-02-27T12:08:16Z" finished-at="2017-02-27T12:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelComputerDataTest -->
+      </class> <!-- com.backbase.automation.tests.CancelComputerDataTest -->
+      <class name="com.backbase.automation.tests.DeleteComputerTest">
+        <test-method status="PASS" signature="deleteComputerTest()[pri:0, instance:com.backbase.automation.tests.DeleteComputerTest@1554909b]" name="deleteComputerTest" duration-ms="18591" started-at="2017-02-27T12:08:45Z" finished-at="2017-02-27T12:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComputerTest -->
+      </class> <!-- com.backbase.automation.tests.DeleteComputerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

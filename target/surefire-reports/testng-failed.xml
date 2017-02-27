@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.backbase.automation.tests.CancelComputerDataTest">
+        <methods>
+          <include name="cancelComputerDataTest"/>
+        </methods>
+      </class> <!-- com.backbase.automation.tests.CancelComputerDataTest -->
+      <class name="com.backbase.automation.tests.SearchComputerTest">
+        <methods>
+          <include name="searchComputerTest"/>
+        </methods>
+      </class> <!-- com.backbase.automation.tests.SearchComputerTest -->
+      <class name="com.backbase.automation.tests.EditcomputerTest">
+        <methods>
+          <include name="EditcomputerTest"/>
+        </methods>
+      </class> <!-- com.backbase.automation.tests.EditcomputerTest -->
+      <class name="com.backbase.automation.tests.pageNavigationTest">
+        <methods>
+          <include name="previousPageNavigationTest"/>
+          <include name="nextPageNavigationTest"/>
+        </methods>
+      </class> <!-- com.backbase.automation.tests.pageNavigationTest -->
+      <class name="com.backbase.automation.tests.LaunchapplicationTest">
+        <methods>
+          <include name="LaunchapplicationTest"/>
+        </methods>
+      </class> <!-- com.backbase.automation.tests.LaunchapplicationTest -->
+      <class name="com.backbase.automation.tests.AddComputerTest">
+        <methods>
+          <include name="addComputerTest"/>
+        </methods>
+      </class> <!-- com.backbase.automation.tests.AddComputerTest -->
+      <class name="com.backbase.automation.tests.DeleteComputerTest">
+        <methods>
+          <include name="deleteComputerTest"/>
+        </methods>
+      </class> <!-- com.backbase.automation.tests.DeleteComputerTest -->
+      <class name="com.backbase.automation.tests.PageRefreshTest">
+        <methods>
+          <include name="nextPageNavigationTest"/>
+        </methods>
+      </class> <!-- com.backbase.automation.tests.PageRefreshTest -->
+      <class name="com.backbase.automation.tests.ComputerPageValidationTest">
+        <methods>
+          <include name="saveComputerWithInvalidDiscontinuedDate"/>
+          <include name="saveComputerWithInvalidIntroducedDate"/>
+          <include name="saveComputerWithoutData"/>
+        </methods>
+      </class> <!-- com.backbase.automation.tests.ComputerPageValidationTest -->
+      <class name="com.backbase.automation.tests.SearchWithInvalidDataTest">
+        <methods>
+          <include name="searchComputerTest"/>
+        </methods>
+      </class> <!-- com.backbase.automation.tests.SearchWithInvalidDataTest -->
+      <class name="com.backbase.automation.tests.ComputerNameMaxLengthTest">
+        <methods>
+          <include name="computerNameMaxLengthTest"/>
+        </methods>
+      </class> <!-- com.backbase.automation.tests.ComputerNameMaxLengthTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

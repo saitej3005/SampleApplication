@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.backbase.automation.tests.CancelComputerDataTest"/>
+      <class name="com.backbase.automation.tests.PageRefreshTest"/>
+      <class name="com.backbase.automation.tests.DeleteComputerTest"/>
+      <class name="com.backbase.automation.tests.ComputerPageValidationTest"/>
+      <class name="com.backbase.automation.tests.pageNavigationTest"/>
+      <class name="com.backbase.automation.tests.AddComputerTest"/>
+      <class name="com.backbase.automation.tests.ComputerNameMaxLengthTest"/>
+      <class name="com.backbase.automation.tests.SearchWithInvalidDataTest"/>
+      <class name="com.backbase.automation.tests.SearchComputerTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

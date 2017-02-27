@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9410" started-at="2017-02-27T11:07:11Z" finished-at="2017-02-27T11:07:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9410" started-at="2017-02-27T11:07:11Z" finished-at="2017-02-27T11:07:20Z">
+      <class name="com.backbase.automation.tests.AddComputerTest">
+        <test-method status="PASS" signature="addComputerTest()[pri:0, instance:com.backbase.automation.tests.AddComputerTest@5e5792a0]" name="addComputerTest" duration-ms="9385" started-at="2017-02-27T12:07:11Z" finished-at="2017-02-27T12:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComputerTest -->
+      </class> <!-- com.backbase.automation.tests.AddComputerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

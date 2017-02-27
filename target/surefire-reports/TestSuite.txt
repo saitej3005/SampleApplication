@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 2.026 sec <<< FAILURE!
+addComputerTest(com.backbase.automation.tests.AddComputerTest)  Time elapsed: 0.864 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.AddComputerTest.addComputerTest(AddComputerTest.java:46)
+
+cancelComputerDataTest(com.backbase.automation.tests.CancelComputerDataTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.CancelComputerDataTest.cancelComputerDataTest(CancelComputerDataTest.java:43)
+
+computerNameMaxLengthTest(com.backbase.automation.tests.ComputerNameMaxLengthTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.ComputerNameMaxLengthTest.computerNameMaxLengthTest(ComputerNameMaxLengthTest.java:54)
+
+saveComputerWithInvalidDiscontinuedDate(com.backbase.automation.tests.ComputerPageValidationTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.ComputerPageValidationTest.saveComputerWithInvalidDiscontinuedDate(ComputerPageValidationTest.java:110)
+
+saveComputerWithInvalidIntroducedDate(com.backbase.automation.tests.ComputerPageValidationTest)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.ComputerPageValidationTest.saveComputerWithInvalidIntroducedDate(ComputerPageValidationTest.java:75)
+
+saveComputerWithoutData(com.backbase.automation.tests.ComputerPageValidationTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.ComputerPageValidationTest.saveComputerWithoutData(ComputerPageValidationTest.java:41)
+
+nextPageNavigationTest(com.backbase.automation.tests.PageRefreshTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.PageRefreshTest.nextPageNavigationTest(PageRefreshTest.java:48)
+
+nextPageNavigationTest(com.backbase.automation.tests.pageNavigationTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.pageNavigationTest.nextPageNavigationTest(pageNavigationTest.java:38)
+
+previousPageNavigationTest(com.backbase.automation.tests.pageNavigationTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.pageNavigationTest.previousPageNavigationTest(pageNavigationTest.java:61)
+
+deleteComputerTest(com.backbase.automation.tests.DeleteComputerTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.DeleteComputerTest.deleteComputerTest(DeleteComputerTest.java:65)
+
+EditcomputerTest(com.backbase.automation.tests.EditcomputerTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.EditcomputerTest.EditcomputerTest(EditcomputerTest.java:68)
+
+LaunchapplicationTest(com.backbase.automation.tests.LaunchapplicationTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.LaunchapplicationTest.LaunchapplicationTest(LaunchapplicationTest.java:33)
+
+searchComputerTest(com.backbase.automation.tests.SearchComputerTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.SearchComputerTest.searchComputerTest(SearchComputerTest.java:52)
+
+searchComputerTest(com.backbase.automation.tests.SearchWithInvalidDataTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.backbase.automation.tests.SearchWithInvalidDataTest.searchComputerTest(SearchWithInvalidDataTest.java:54)
+

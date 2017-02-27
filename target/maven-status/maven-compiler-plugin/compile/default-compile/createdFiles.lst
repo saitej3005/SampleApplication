@@ -1,0 +1,14 @@
+com\backbase\automation\tests\ComputerNameMaxLengthTest.class
+com\backbase\automation\tests\ComputerPageValidationTest.class
+com\backbase\automation\pages\ComputerPage.class
+com\backbase\automation\tests\pageNavigationTest.class
+com\backbase\automation\tests\AddComputerTest.class
+com\backbase\automation\pages\HomePage.class
+com\backbase\automation\tests\SearchComputerTest.class
+com\backbase\automation\tests\PageRefreshTest.class
+com\backbase\automation\tests\DeleteComputerTest.class
+com\backbase\automation\tests\CancelComputerDataTest.class
+com\backbase\automation\tests\EditcomputerTest.class
+com\backbase\automation\pages\ErrorPage.class
+com\backbase\automation\tests\LaunchapplicationTest.class
+com\backbase\automation\tests\SearchWithInvalidDataTest.class

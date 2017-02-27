@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="14" failures="14" name="TestSuite" time="0.938" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Users\n030mad\workspace\SampleApplication"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Users\n030mad\workspace\SampleApplication"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="D:\Users\n030mad\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_121\bin;D:\apache-maven-3.3.9\bin;D:\app\N030MAD\product\11.2.0\client_2\bin;D:\app\N030MAD\product\11.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Symantec\Symantec Endpoint Encryption Clients\;C:\Program Files (x86)\SAP\FrontEnd\SapGui;C:\Program Files (x86)\HP\Unified Functional Testing\bin; ;C:\Program Files\Git\cmd;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="D:\Users\n030mad"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="N030MAD"/>
+    <property name="java.class.path" value="D:\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.backbase.automation.tests.AddComputerTest" name="addComputerTest" time="0.864">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.AddComputerTest.addComputerTest(AddComputerTest.java:46)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@77556fd
+</system-out>
+  </testcase>
+  <testcase classname="com.backbase.automation.tests.CancelComputerDataTest" name="cancelComputerDataTest" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.CancelComputerDataTest.cancelComputerDataTest(CancelComputerDataTest.java:43)
+</failure>
+  </testcase>
+  <testcase classname="com.backbase.automation.tests.ComputerNameMaxLengthTest" name="computerNameMaxLengthTest" time="0.007">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.ComputerNameMaxLengthTest.computerNameMaxLengthTest(ComputerNameMaxLengthTest.java:54)
+</failure>
+  </testcase>
+  <testcase classname="com.backbase.automation.tests.ComputerPageValidationTest" name="saveComputerWithInvalidDiscontinuedDate" time="0.006">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.ComputerPageValidationTest.saveComputerWithInvalidDiscontinuedDate(ComputerPageValidationTest.java:110)
+</failure>
+  </testcase>
+  <testcase classname="com.backbase.automation.tests.ComputerPageValidationTest" name="saveComputerWithInvalidIntroducedDate" time="0.01">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.ComputerPageValidationTest.saveComputerWithInvalidIntroducedDate(ComputerPageValidationTest.java:75)
+</failure>
+  </testcase>
+  <testcase classname="com.backbase.automation.tests.ComputerPageValidationTest" name="saveComputerWithoutData" time="0.006">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.ComputerPageValidationTest.saveComputerWithoutData(ComputerPageValidationTest.java:41)
+</failure>
+  </testcase>
+  <testcase classname="com.backbase.automation.tests.PageRefreshTest" name="nextPageNavigationTest" time="0.007">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.PageRefreshTest.nextPageNavigationTest(PageRefreshTest.java:48)
+</failure>
+  </testcase>
+  <testcase classname="com.backbase.automation.tests.pageNavigationTest" name="nextPageNavigationTest" time="0.008">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.pageNavigationTest.nextPageNavigationTest(pageNavigationTest.java:38)
+</failure>
+  </testcase>
+  <testcase classname="com.backbase.automation.tests.pageNavigationTest" name="previousPageNavigationTest" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.pageNavigationTest.previousPageNavigationTest(pageNavigationTest.java:61)
+</failure>
+  </testcase>
+  <testcase classname="com.backbase.automation.tests.DeleteComputerTest" name="deleteComputerTest" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.DeleteComputerTest.deleteComputerTest(DeleteComputerTest.java:65)
+</failure>
+  </testcase>
+  <testcase classname="com.backbase.automation.tests.EditcomputerTest" name="EditcomputerTest" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.EditcomputerTest.EditcomputerTest(EditcomputerTest.java:68)
+</failure>
+  </testcase>
+  <testcase classname="com.backbase.automation.tests.LaunchapplicationTest" name="LaunchapplicationTest" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.LaunchapplicationTest.LaunchapplicationTest(LaunchapplicationTest.java:33)
+</failure>
+  </testcase>
+  <testcase classname="com.backbase.automation.tests.SearchComputerTest" name="searchComputerTest" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.SearchComputerTest.searchComputerTest(SearchComputerTest.java:52)
+</failure>
+  </testcase>
+  <testcase classname="com.backbase.automation.tests.SearchWithInvalidDataTest" name="searchComputerTest" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.backbase.automation.tests.SearchWithInvalidDataTest.searchComputerTest(SearchWithInvalidDataTest.java:54)
+</failure>
+  </testcase>
+</testsuite>
